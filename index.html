@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cesar Palomares</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="Style.css"/>
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg shadow">
+            <a class="navbar-brand nav-element" href="Index.html">Cesar Palomares</a>
+            <button onclick="Desplegar()" class="navbar-toggler nav-element" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link nav-element" href="#Seccion_SobreMi">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-element" href="#Seccion_Proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-element" href="#Seccion_Contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div id="Seccion_SobreMi" class="seccion card">
+            <h4>Sobre mi</h4>
+            <br>
+            <p>
+                Hola, me llamo Cesar Palomares Marín, soy un desarrollador de software de <span id="edad">{edad}</span> años, residente en Palma de mallorca, Baleares, España. <br>
+                Me titulé en el grado superior de <span style="text-decoration: underline;">desarrollo de aplicaciones multiplataforma</span> y Llevo programando desde que tengo 19 años aunque mi actividad profesional en el sector no comenzó hasta los 22,
+                no solo programo como trabajo, sino que también como hobbie, usando mis conocimientos para crear programas para simplificar tareas de mi dia a dia o simplemente hacer programas que me brinden entretenimiento.
+                <br><br>
+                Estas son algunas de las tecnologias con las que tengo experiencia:
+            </p>
+
+            <div style="max-width: 600px;">
+
+                <div class="row">
+                    <div class="col card lenguage_card">
+                        <h6>SQL</h6>
+                    </div>
+                    <div class="col card lenguage_card">
+                        <h6>C#</h6>
+                    </div>
+                    <div class="col card lenguage_card">
+                        <h6>JAVA</h6>
+                    </div>
+                    <div class="col card lenguage_card">
+                        <h6>HTML</h6>
+                    </div>
+                    <div class="col card lenguage_card">
+                        <h6>CSS</h6>
+                    </div>
+                    <div class="col card lenguage_card">
+                        <h6>JAVASCRIPT</h6>
+                    </div>
+                    <div class="col card lenguage_card">
+                        <h6>PYTHON</h6>
+                    </div>
+                    <div class="col card lenguage_card">
+                        <h6>UNITY</h6>
+                    </div>
+                    <div class="col card lenguage_card">
+                        <h6>LUA</h6>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="Seccion_Experiencia" class="seccion card">
+            <h4>Experiencia laboral</h4>
+            <br>
+            <div></div>
+            <ul>
+                <li>
+                    Anysolution -> 3meses
+                </li>
+                <li>
+                    LUDA partners -> 6 meses
+                </li>
+                <li>
+                    Antfor software -> 2023-Actualmente
+                </li>
+            </ul>
+        </div>
+        
+        <div id="Seccion_Proyectos" class="seccion card">
+            <h4>Proyectos</h4>
+            <br>
+            <div>
+
+                <div class="row">
+                    <div class="proyecto_card col card">
+                        <h6 class="proyecto_title">Mr. Bigote</h6>
+                        <p class="proyecto_body">
+                            Programa de asistencia personal y entretenimiento.
+                            Un programa hecho con Windows forms que permite mantenr un control de víveres y cuando se terminan, sistema de
+                            avisos en forma de pop-ups, poder escuchar la radio, testear conexiones TCP y generar contraseñas seguras.
+                        </p>
+                    </div>
+                    <div class="proyecto_card col card">
+                        <h6 class="proyecto_title">ERP talleres</h6>
+                        <p class="proyecto_body">
+                            ERP de gestión para talleres pequeños. Es un programa que está pensado para empresas talleres con un solo terminal,
+                            ya que guarda los datos de forma local y codificados en formato XML. El programa permite mantener un registro de Clientes, vehículos,
+                            tareas, presupuestos y facturas.
+                            <br><br>
+                            <span style="color: rgb(216, 118, 49);">Esta aplicación aún se encuentra en proceso de desarrollo.</span>
+                        </p>
+                    </div>
+                    <div class="proyecto_card col card">
+                        <h6 class="proyecto_title">Librería PDF</h6>
+                        <p class="proyecto_body">
+                            Librería de diseño e impresión de documentos PDF para '.NET'. <br><br>
+                            Permite crear documentos de forma sencilla y con conocimientos de programación mínimos.
+                        </p>
+                    </div>
+
+                    <div class="proyecto_card col card">
+                        <h6 class="proyecto_title">Facturador móvil</h6>
+                        <p class="proyecto_body">
+                            Una app móvil que permite hacer facturas y compratirlas de forma sencilla.
+                            Útiliza mi librería de diseño de PDFs como base y estará disponible para iOS y Android.
+                            <br><br>
+                            <span style="color: rgb(216, 118, 49);">Esta aplicación aún se encuentra en proceso de desarrollo.</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div id="Seccion_Contacto" class="seccion card">
+            <h4>Contacto</h4>
+            <br>
+            <span style="display: flex; margin-left: 10px;">
+                <i class="material-icons">email</i>
+                <h6>cesarboira@gmail.com</h6>
+            </span>
+
+            <span style="display: flex; margin-left: 10px;">
+                <i class="material-icons">phone</i>
+                <h6>+34 673088449</h6>
+            </span>
+
+            <span style="display: flex; margin-left: 10px;">
+                <i class="fa fa-github" style="font-size:24px"></i>
+                <a href="https://github.com/cesarboira"target="_blank"><h6>Github</h6></a>
+            </span>
+
+            <span style="display: flex; margin-left: 10px;">
+                <i class="fa fa-linkedin" style="font-size:24px"></i>
+                <a href="https://es.linkedin.com/in/cesarpm" target="_blank"><h6>Linkedin</h6></a>
+            </span>
+
+        </div>
+
+        <div id="Seccion_Copyright" class="copyright">
+            © Cesar Palomares Marín 2025
+        </div>
+    </body>
+</html>
+
+<script type="text/javascript" src="Script.js"></script>
+
