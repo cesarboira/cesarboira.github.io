@@ -1,0 +1,62 @@
+body{
+    color: white;
+}
+
+.navbar {
+    color: white;
+    padding: 15px;
+    background-color: blue;
+}
+
+.nav-element{
+    color: white;
+}
+
+.copyright {
+    color: white;
+    padding: 1.4%;
+    background-color: blue;
+}
+
+.card {
+    color: white;
+    margin: 3%;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(145, 145, 255);
+}
+
+.seccion {
+    color: white;
+    margin: 40px;
+}
+
+.proyecto_card {
+    color: white;
+    min-width: 260px;
+    background-color: blue;
+}
+
+.lenguage_card {
+    color: white;
+    text-align: center;
+    min-width: 90px;
+    background-color: blue;
+}
+
+.proyecto_title{
+    padding-bottom: 10px;
+}
+
+.proyecto_body{
+    text-align: left;
+    padding-left: 20px;
+}
+
+#edad{
+    background-color: white;
+    color: black;
+    padding: 2px;
+    box-shadow: inset 0px 5px 8px -5px #000,inset 0px -5px 8px -5px #000;
+}
